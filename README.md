@@ -12,16 +12,25 @@ Full feature set:
 ###Screenshots:
 # Screenshots of the UI
 Main interface
+
 ![Screenshot of the UI](https://raw.githubusercontent.com/CryptedBytes/AutoPowerModeSwitcher/main/repoimages/0.png)
 
+
 Expanded interface
+
 ![Screenshot of the UI](https://raw.githubusercontent.com/CryptedBytes/AutoPowerModeSwitcher/main/repoimages/1.png)
 
+
 Settings
+
 ![Screenshot of the UI](https://raw.githubusercontent.com/CryptedBytes/AutoPowerModeSwitcher/main/repoimages/2.png)
 
+
 Taskbar menu
+
 ![Screenshot of the UI](https://raw.githubusercontent.com/CryptedBytes/AutoPowerModeSwitcher/main/repoimages/3.png)
 
+
 AutoPowerSwitcher
+
 ![Screenshot of the UI](https://raw.githubusercontent.com/CryptedBytes/AutoPowerModeSwitcher/main/repoimages/4.png)
