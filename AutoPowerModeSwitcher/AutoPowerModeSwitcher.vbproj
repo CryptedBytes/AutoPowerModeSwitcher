@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF8788FA-BB43-4DBC-88CF-3594F2C7294A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AutoPowerModeSwitcher.My.MyApplication</StartupObject>
+    <RootNamespace>AutoPowerModeSwitcher</RootNamespace>
+    <AssemblyName>AutoPowerModeSwitcher</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Program Files %28x86%29\CryptedBytes\APMS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AutoPowerModeSwitcher.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AutoPowerModeSwitcher.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\AutoPowerModeSwitcher New Icon White.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>55B6E9D43D31A524C55D600C098A6513A79E3FF2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AutoPowerModeSwitcher_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoPilotPopup.Designer.vb">
+      <DependentUpon>AutoPilotPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AutoPilotPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoPowerSwitcher.Designer.vb">
+      <DependentUpon>AutoPowerSwitcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AutoPowerSwitcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootManager.Designer.vb">
+      <DependentUpon>BootManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BootManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootManagerUXPort.Designer.vb">
+      <DependentUpon>BootManagerUXPort.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BootManagerUXPort.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoreForm.Designer.vb">
+      <DependentUpon>CoreForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CoreForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Debugging.Designer.vb">
+      <DependentUpon>Debugging.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Debugging.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface.Designer.vb">
+      <DependentUpon>UserInterface.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameList.Designer.vb">
+      <DependentUpon>GameList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GameList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstallerModule.Designer.vb">
+      <DependentUpon>InstallerModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InstallerModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryLeakTestingLab.Designer.vb">
+      <DependentUpon>MemoryLeakTestingLab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryLeakTestingLab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreBootManager.Designer.vb">
+      <DependentUpon>PreBootManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreBootManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="DebugUI.Designer.vb">
+      <DependentUpon>DebugUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DebugUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPreferencesModule.Designer.vb">
+      <DependentUpon>UserPreferencesModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserPreferencesModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsDatabase.Designer.vb">
+      <DependentUpon>SettingsDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VisualStudioDetector.Designer.vb">
+      <DependentUpon>VisualStudioDetector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VisualStudioDetector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoPilotPopup.resx">
+      <DependentUpon>AutoPilotPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoPowerSwitcher.resx">
+      <DependentUpon>AutoPowerSwitcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BootManager.resx">
+      <DependentUpon>BootManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BootManagerUXPort.resx">
+      <DependentUpon>BootManagerUXPort.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoreForm.resx">
+      <DependentUpon>CoreForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Debugging.resx">
+      <DependentUpon>Debugging.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface.resx">
+      <DependentUpon>UserInterface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameList.resx">
+      <DependentUpon>GameList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstallerModule.resx">
+      <DependentUpon>InstallerModule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemoryLeakTestingLab.resx">
+      <DependentUpon>MemoryLeakTestingLab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreBootManager.resx">
+      <DependentUpon>PreBootManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugUI.resx">
+      <DependentUpon>DebugUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPreferencesModule.resx">
+      <DependentUpon>UserPreferencesModule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsDatabase.resx">
+      <DependentUpon>SettingsDatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualStudioDetector.resx">
+      <DependentUpon>VisualStudioDetector.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery-2-512.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AppIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpu22.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_inline_np9hcuZr931qd3uu5_540.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CryptedBytes Logo - Big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KTnby6jTq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redperf_P1y_icon.ico" />
+    <None Include="Resources\balanced.ico" />
+    <None Include="Resources\high performance.ico" />
+    <None Include="Resources\error.ico" />
+    <None Include="Resources\AutoPowerModeSwitcher New Icon White Blue.ico" />
+    <None Include="Resources\AutoPowerModeSwitcher New Icon White.ico" />
+    <Content Include="Resources\NewIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

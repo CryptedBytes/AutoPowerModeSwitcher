@@ -1,0 +1,147 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="PreferredPowerModeEqualsBalanced" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GamingPowerModeEquals70Freq" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckInvertalEqualsFrequent" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TargetProcess" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GTA5</Value>
+    </Setting>
+    <Setting Name="StartOnBootEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="StartMinimized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TopMost" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutoPilotEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CoreEngineModeEqualsOptimized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LowFreqGUID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ca366f9a-4ace-4337-b948-5b196e337c7d</Value>
+    </Setting>
+    <Setting Name="FirstTimeClosing" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UserTrackingEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TaskManagerEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TaskManagerWarningRemoved" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TaskManagerRestartAfterSession" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BootManagerEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NoImpactEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TaskManagerPrioritize" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EnableExperimentalFeatures" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TrackU" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LegacySetting</Value>
+    </Setting>
+    <Setting Name="ApplicationStatupMesurementValue1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ApplicationStatupMesurementValue2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DisableCoreForm" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GroupPolicyForceAutoPilot" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DisableLegacyServices" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultTargetProcess" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GTA5</Value>
+    </Setting>
+    <Setting Name="PreferredCPUModeAsByte" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="AllowPowermodeControl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DisableDeveloperDetectorService" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ApplicationSELFPriority" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IDLE</Value>
+    </Setting>
+    <Setting Name="DisableLegacyCheckboxStyleDetectionSystem" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DEBUG_StartingForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UserPreferencesModule</Value>
+    </Setting>
+    <Setting Name="DisableSizeChangedEventChecks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UI_DefaultHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="UI_DefaultWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">313</Value>
+    </Setting>
+    <Setting Name="CheckPowerPlanInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1750</Value>
+    </Setting>
+    <Setting Name="FastCheckConditionCheckPowerModeEngineInterval" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="RedirectConsoleToFile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FlushConsoleAtStartup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LastCpuModeFriendlyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Balanced</Value>
+    </Setting>
+    <Setting Name="AllowQuit" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UI_MaxHeight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">529</Value>
+    </Setting>
+    <Setting Name="UI_MaxWidth" Type="System.String" Scope="User">
+      <Value Profile="(Default)">316</Value>
+    </Setting>
+    <Setting Name="UI_MinHeight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="SafemodeEnabled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AboutThisFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">This is where all the application settings stored. You may manually override any value but changing values may cause application to crash or have serious issues. Proceed with caution. Before changing any values, please make sure the APMS application has quit. </Value>
+    </Setting>
+    <Setting Name="enableGameDetection" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
